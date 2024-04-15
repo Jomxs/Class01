@@ -1,0 +1,49 @@
+.Avatar {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #0b334b;
+    position: relative;
+    left: 100px;
+    object-position: 0px -45px;  
+}
+.Header{
+    overflow: hidden;
+    background: rgb(192, 224, 241);
+    background: linear-gradient(180deg, rgb(186, 223, 243) 65%, rgb(149, 186, 241) 100%);
+    padding: 20px 10px;
+}
+
+.Right_Column{
+    height: 100%;
+    width: 300px;
+    background-image: url(mizuiro.png), url(mizuiro2.png);
+    background-size: 400px 350px, 400px  350px;
+    border-right: 5px solid #0b334b;
+    background-position: bottom, top;
+    background-repeat: no-repeat;
+    position: fixed;
+    z-index: 1;
+    overflow: auto;
+}
+.texto{
+    text-align: center;
+    position: relative;
+    left: 100px;
+    color: white;
+
+}
+.gato{
+    width: 100px;
+    height: 100px;
+    margin-left: auto;
+    border: 2px solid #0b334b;
+    margin-right: auto;
+    border-radius: 50%;
+    object-position: right;
+    position: relative;
+    left: 54%;
+
+}
