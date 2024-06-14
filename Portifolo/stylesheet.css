@@ -20,13 +20,14 @@ a{
 }
 .next{
     display: inline-block;
+    left: 160vh;
 }
 .return{
    display: inline-block;
    padding: 0px;
    margin: 0px;
    margin-left: -170px;
-   margin-right: 540px;
+  
 }
 .Header{
     overflow: hidden;
