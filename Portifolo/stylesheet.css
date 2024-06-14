@@ -2,32 +2,50 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: #818181;
 }
 .Avatar {
     display: block;
     border-radius: 50%;
     object-fit: cover;
-    border: 5px solid #0b334b;
+    border: 10px solid white;
     position: relative;
-    left: 62%;
+    left: 50%;
 }
 
-.center{
-    display: block;
-    margin: 0 auto;
-    width: 40%;
-   
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+.next{
+    display: inline-block;
+}
+.return{
+   display: inline-block;
+   padding: 0px;
+   margin: 0px;
+   margin-left: -170px;
+   margin-right: 540px;
 }
 .Header{
     overflow: hidden;
-    background: rgb(192, 224, 241);
-    background: linear-gradient(180deg,rgb(149, 219, 241)65% , rgb(117, 118, 180) 100%);
-    padding: 20px 10px;
-    min-height: 100%;
+    background: #010081;
+    margin: 0;
+    padding: 0;
     position: relative;
     width: 100%;
   
 }
+.link a {
+    display: inline-block;
+    text-decoration: none; 
+    color: white; 
+    margin-top: 0px;
+    padding-top: 0px;
+  
+}
+
 
 .Left_Couloumn{
     position: relative;
@@ -36,8 +54,8 @@ body {
 }
     
 .Right_Column{
-    height: 100%;
-    width: 400px;
+    height: 100vh;
+    width: 46vh;
     background-image: url(mizuiro.png), url(mizuiro2.png);
     background-size: 100% 50%, 100% 50%;
     border-right: 5px solid #0b334b;
@@ -53,12 +71,18 @@ h1 {
     text-align: center;
     color: white;
     position: relative;
-    left: 50px;
     font-family: font02;
-
+}
+h2{
+    font-size: 32px;
+    text-align: center;
+    color: #c3c3c3;
+    position: relative;
+    left: 70vh;
+    font-family: font02;
 }
 .texto{
-    font-size: 22px;
+    font-size: 16px;
     text-align: center;
     color: white;
     position: relative;
@@ -68,12 +92,9 @@ h1 {
 .gato{
     width: 100px;
     height: 100px;
-    margin-left: auto;
     border: 2px solid #0b334b;
-    margin-right: auto;
     border-radius: 50%;
     position: relative;
-    left: 50%;
 
 }
 
@@ -96,11 +117,7 @@ h1 {
 }
 
 @media only screen and (max-width: 1000px) {
-    body {
-
-
-   
-        }
+    
         .Right_Column {
             display: none;
         }
@@ -127,15 +144,13 @@ h1 {
         right: 2%;
         width: 100%;
     }
-        
-       
+   
        
         .texto {
             text-align: center; 
             left: 0;
             margin-left: auto;
             margin-right: auto;
-            left: 4%;
             font-family: font01;
         }
     
